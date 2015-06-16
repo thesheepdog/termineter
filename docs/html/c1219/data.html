@@ -1,0 +1,253 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>c1219.data &mdash; Termineter 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Termineter 0.1.0 documentation" href="../index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../index.html" class="icon icon-home"> Termineter
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../c1218/index.html"><code class="docutils literal"><span class="pre">c1218</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../c1218/urlhandler/index.html"><code class="docutils literal"><span class="pre">c1218.urlhandler</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1218/urlhandler/protocol_unix.html"><code class="docutils literal"><span class="pre">c1218.urlhandler.protocol_unix</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../c1218/urlhandler/protocol_unix.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1218/connection.html"><code class="docutils literal"><span class="pre">c1218.connection</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1218/connection.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1218/data.html"><code class="docutils literal"><span class="pre">c1218.data</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1218/data.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1218/errors.html"><code class="docutils literal"><span class="pre">c1218.errors</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1218/errors.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Termineter</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">c1219.data</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/c1219/data.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="c1219-data">
+<h1><a class="reference internal" href="#module-c1219.data" title="c1219.data"><code class="xref py py-mod docutils literal"><span class="pre">c1219.data</span></code></a><a class="headerlink" href="#c1219-data" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-c1219.data"></span><div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="c1219.data.C1219ProcedureInit">
+<em class="property">class </em><code class="descclassname">c1219.data.</code><code class="descname">C1219ProcedureInit</code><span class="sig-paren">(</span><em>endianess</em>, <em>table_proc_nbr</em>, <em>std_vs_mfg</em>, <em>selector</em>, <em>seqnum</em>, <em>params=''</em><span class="sig-paren">)</span><a class="headerlink" href="#c1219.data.C1219ProcedureInit" title="Permalink to this definition">¶</a></dt>
+<dd><p>A C1219 Procedure Request, this data is written to table 7 in order to
+start a procedure.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>endianess</strong> (<em>str</em>) &#8211; The endianess to use when packing values (&#8216;&gt;&#8217; or &#8216;&lt;&#8217;)</li>
+<li><strong>table_proc_nbr</strong> (<em>int</em>) &#8211; The numeric procedure identifier (0 &lt;= table_proc_nbr &lt;= 2047).</li>
+<li><strong>std_vs_mfg</strong> (<em>bool</em>) &#8211; Whether the procedure is manufacturer specified</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>or not.  True is manufacturer specified.
+:param int selector: Controls how data is returned (0 &lt;= selector &lt;= 15).</p>
+<blockquote>
+<div><p>0: Post response in PROC_RESPONSE_TBL (#8) on completion.
+1: Post response in PROC_RESPONSE_TBL (#8) on exception.
+2: Do not post response in PROC_RESPONSE_TBL (#8).
+3: Post response in PROC_RESPONSE_TBL (#8) immediately and another</p>
+<blockquote>
+<div>response in PROC_RESPONSE_TBL (#8) on completion.</div></blockquote>
+<p>4-15: Reserved.</p>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>seqnum</strong> (<em>int</em>) &#8211; The identifier for this procedure to be used for</td>
+</tr>
+</tbody>
+</table>
+<p>coordination (0x00 &lt;= seqnum &lt;= 0xff).
+:param str params: The parameters to pass to the procedure initiation
+request.</p>
+<dl class="method">
+<dt id="c1219.data.C1219ProcedureInit.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>endianess</em>, <em>table_proc_nbr</em>, <em>std_vs_mfg</em>, <em>selector</em>, <em>seqnum</em>, <em>params=''</em><span class="sig-paren">)</span><a class="headerlink" href="#c1219.data.C1219ProcedureInit.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1219.data.C1219ProcedureInit.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1219.data.C1219ProcedureInit.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1219.data.C1219ProcedureInit.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>endianess</em>, <em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1219.data.C1219ProcedureInit.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2011-2015, SecureState LLC.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

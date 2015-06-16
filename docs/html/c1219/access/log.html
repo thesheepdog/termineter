@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>c1219.access.log &mdash; Termineter 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Termineter 0.1.0 documentation" href="../../index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../../index.html" class="icon icon-home"> Termineter
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../c1218/index.html"><code class="docutils literal"><span class="pre">c1218</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../c1218/urlhandler/index.html"><code class="docutils literal"><span class="pre">c1218.urlhandler</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../c1218/urlhandler/protocol_unix.html"><code class="docutils literal"><span class="pre">c1218.urlhandler.protocol_unix</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../c1218/urlhandler/protocol_unix.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../c1218/connection.html"><code class="docutils literal"><span class="pre">c1218.connection</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../c1218/connection.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../c1218/data.html"><code class="docutils literal"><span class="pre">c1218.data</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../c1218/data.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../c1218/errors.html"><code class="docutils literal"><span class="pre">c1218.errors</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../c1218/errors.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Termineter</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">c1219.access.log</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/c1219/access/log.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="c1219-access-log">
+<h1><a class="reference internal" href="#module-c1219.access.log" title="c1219.access.log"><code class="xref py py-mod docutils literal"><span class="pre">c1219.access.log</span></code></a><a class="headerlink" href="#c1219-access-log" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-c1219.access.log"></span><div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="c1219.access.log.C1219LogAccess">
+<em class="property">class </em><code class="descclassname">c1219.access.log.</code><code class="descname">C1219LogAccess</code><span class="sig-paren">(</span><em>conn</em><span class="sig-paren">)</span><a class="headerlink" href="#c1219.access.log.C1219LogAccess" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class provides generic access to the log data tables that are
+stored in the decade 7x tables.</p>
+<dl class="method">
+<dt id="c1219.access.log.C1219LogAccess.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>conn</em><span class="sig-paren">)</span><a class="headerlink" href="#c1219.access.log.C1219LogAccess.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initializes a new instance of the class and reads tables from the
+corresponding decades to populate information.</p>
+<p>&#64;type conn: c1218.connection.Connection
+&#64;param conn: The driver to be used for interacting with the
+necessary tables.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="c1219.access.log.C1219LogAccess.logs">
+<code class="descname">logs</code><a class="headerlink" href="#c1219.access.log.C1219LogAccess.logs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1219.access.log.C1219LogAccess.nbr_event_entries">
+<code class="descname">nbr_event_entries</code><a class="headerlink" href="#c1219.access.log.C1219LogAccess.nbr_event_entries" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1219.access.log.C1219LogAccess.nbr_history_entries">
+<code class="descname">nbr_history_entries</code><a class="headerlink" href="#c1219.access.log.C1219LogAccess.nbr_history_entries" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2011-2015, SecureState LLC.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

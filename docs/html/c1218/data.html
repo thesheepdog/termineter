@@ -1,0 +1,600 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>c1218.data &mdash; Termineter 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Termineter 0.1.0 documentation" href="../index.html"/>
+        <link rel="up" title="c1218" href="index.html"/>
+        <link rel="next" title="c1218.errors" href="errors.html"/>
+        <link rel="prev" title="c1218.connection" href="connection.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../index.html" class="icon icon-home"> Termineter
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><code class="docutils literal"><span class="pre">c1218</span></code></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="urlhandler/index.html"><code class="docutils literal"><span class="pre">c1218.urlhandler</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="urlhandler/protocol_unix.html"><code class="docutils literal"><span class="pre">c1218.urlhandler.protocol_unix</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="urlhandler/protocol_unix.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="connection.html"><code class="docutils literal"><span class="pre">c1218.connection</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="connection.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href=""><code class="docutils literal"><span class="pre">c1218.data</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="errors.html"><code class="docutils literal"><span class="pre">c1218.errors</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="errors.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Termineter</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html"><code class="docutils literal"><span class="pre">c1218</span></code></a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">c1218.data</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/c1218/data.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="c1218-data">
+<h1><a class="reference internal" href="#module-c1218.data" title="c1218.data"><code class="xref py py-mod docutils literal"><span class="pre">c1218.data</span></code></a><a class="headerlink" href="#c1218-data" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-c1218.data"></span><div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="c1218.data.C1218Request">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218Request</code><a class="headerlink" href="#c1218.data.C1218Request" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="c1218.data.C1218Request.name">
+<code class="descname">name</code><a class="headerlink" href="#c1218.data.C1218Request.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218Request.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218Request.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218LogonRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218LogonRequest</code><span class="sig-paren">(</span><em>username=''</em>, <em>userid=0</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogonRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218LogonRequest.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>username=''</em>, <em>userid=0</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogonRequest.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218LogonRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogonRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218LogonRequest.logon">
+<code class="descname">logon</code><em class="property"> = 'P'</em><a class="headerlink" href="#c1218.data.C1218LogonRequest.logon" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218LogonRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogonRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218LogonRequest.set_userid">
+<code class="descname">set_userid</code><span class="sig-paren">(</span><em>userid</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogonRequest.set_userid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218LogonRequest.set_username">
+<code class="descname">set_username</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogonRequest.set_username" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218LogonRequest.userid">
+<code class="descname">userid</code><a class="headerlink" href="#c1218.data.C1218LogonRequest.userid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218LogonRequest.username">
+<code class="descname">username</code><a class="headerlink" href="#c1218.data.C1218LogonRequest.username" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218SecurityRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218SecurityRequest</code><span class="sig-paren">(</span><em>password=''</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218SecurityRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218SecurityRequest.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>password=''</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218SecurityRequest.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218SecurityRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218SecurityRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218SecurityRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218SecurityRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218SecurityRequest.password">
+<code class="descname">password</code><a class="headerlink" href="#c1218.data.C1218SecurityRequest.password" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218SecurityRequest.security">
+<code class="descname">security</code><em class="property"> = 'Q'</em><a class="headerlink" href="#c1218.data.C1218SecurityRequest.security" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218SecurityRequest.set_password">
+<code class="descname">set_password</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218SecurityRequest.set_password" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218LogoffRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218LogoffRequest</code><a class="headerlink" href="#c1218.data.C1218LogoffRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218LogoffRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogoffRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218LogoffRequest.logoff">
+<code class="descname">logoff</code><em class="property"> = 'R'</em><a class="headerlink" href="#c1218.data.C1218LogoffRequest.logoff" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218LogoffRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218LogoffRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218NegotiateRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218NegotiateRequest</code><span class="sig-paren">(</span><em>pktsize</em>, <em>nbrpkt</em>, <em>baudrate=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218NegotiateRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218NegotiateRequest.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>pktsize</em>, <em>nbrpkt</em>, <em>baudrate=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218NegotiateRequest.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218NegotiateRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218NegotiateRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218NegotiateRequest.negotiate">
+<code class="descname">negotiate</code><em class="property"> = '`'</em><a class="headerlink" href="#c1218.data.C1218NegotiateRequest.negotiate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218NegotiateRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218NegotiateRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218NegotiateRequest.set_baudrate">
+<code class="descname">set_baudrate</code><span class="sig-paren">(</span><em>baudrate</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218NegotiateRequest.set_baudrate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218NegotiateRequest.set_nbrpkt">
+<code class="descname">set_nbrpkt</code><span class="sig-paren">(</span><em>nbrpkt</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218NegotiateRequest.set_nbrpkt" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218NegotiateRequest.set_pktsize">
+<code class="descname">set_pktsize</code><span class="sig-paren">(</span><em>pktsize</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218NegotiateRequest.set_pktsize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218WaitRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218WaitRequest</code><span class="sig-paren">(</span><em>time=1</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WaitRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218WaitRequest.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>time=1</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WaitRequest.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218WaitRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WaitRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218WaitRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WaitRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218WaitRequest.set_time">
+<code class="descname">set_time</code><span class="sig-paren">(</span><em>time</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WaitRequest.set_time" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218WaitRequest.wait">
+<code class="descname">wait</code><em class="property"> = 'p'</em><a class="headerlink" href="#c1218.data.C1218WaitRequest.wait" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218IdentRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218IdentRequest</code><a class="headerlink" href="#c1218.data.C1218IdentRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218IdentRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218IdentRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218IdentRequest.ident">
+<code class="descname">ident</code><em class="property"> = ' '</em><a class="headerlink" href="#c1218.data.C1218IdentRequest.ident" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218IdentRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218IdentRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218TerminateRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218TerminateRequest</code><a class="headerlink" href="#c1218.data.C1218TerminateRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218TerminateRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218TerminateRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218TerminateRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218TerminateRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218TerminateRequest.terminate">
+<code class="descname">terminate</code><em class="property"> = '!'</em><a class="headerlink" href="#c1218.data.C1218TerminateRequest.terminate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218ReadRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218ReadRequest</code><span class="sig-paren">(</span><em>tableid</em>, <em>offset=None</em>, <em>octetcount=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218ReadRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218ReadRequest.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>tableid</em>, <em>offset=None</em>, <em>octetcount=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218ReadRequest.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218ReadRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218ReadRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218ReadRequest.octetcount">
+<code class="descname">octetcount</code><a class="headerlink" href="#c1218.data.C1218ReadRequest.octetcount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218ReadRequest.offset">
+<code class="descname">offset</code><a class="headerlink" href="#c1218.data.C1218ReadRequest.offset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218ReadRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218ReadRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218ReadRequest.read">
+<code class="descname">read</code><em class="property"> = '0'</em><a class="headerlink" href="#c1218.data.C1218ReadRequest.read" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218ReadRequest.set_octetcount">
+<code class="descname">set_octetcount</code><span class="sig-paren">(</span><em>octetcount</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218ReadRequest.set_octetcount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218ReadRequest.set_offset">
+<code class="descname">set_offset</code><span class="sig-paren">(</span><em>offset</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218ReadRequest.set_offset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218ReadRequest.set_tableid">
+<code class="descname">set_tableid</code><span class="sig-paren">(</span><em>tableid</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218ReadRequest.set_tableid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218ReadRequest.tableid">
+<code class="descname">tableid</code><a class="headerlink" href="#c1218.data.C1218ReadRequest.tableid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218WriteRequest">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218WriteRequest</code><span class="sig-paren">(</span><em>tableid</em>, <em>data</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WriteRequest" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218WriteRequest.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>tableid</em>, <em>data</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WriteRequest.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218WriteRequest.data">
+<code class="descname">data</code><a class="headerlink" href="#c1218.data.C1218WriteRequest.data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218WriteRequest.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WriteRequest.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218WriteRequest.offset">
+<code class="descname">offset</code><a class="headerlink" href="#c1218.data.C1218WriteRequest.offset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218WriteRequest.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WriteRequest.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218WriteRequest.set_data">
+<code class="descname">set_data</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WriteRequest.set_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218WriteRequest.set_offset">
+<code class="descname">set_offset</code><span class="sig-paren">(</span><em>offset</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WriteRequest.set_offset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218WriteRequest.set_tableid">
+<code class="descname">set_tableid</code><span class="sig-paren">(</span><em>tableid</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218WriteRequest.set_tableid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218WriteRequest.tableid">
+<code class="descname">tableid</code><a class="headerlink" href="#c1218.data.C1218WriteRequest.tableid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218WriteRequest.write">
+<code class="descname">write</code><em class="property"> = '&#64;'</em><a class="headerlink" href="#c1218.data.C1218WriteRequest.write" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.data.C1218Packet">
+<em class="property">class </em><code class="descclassname">c1218.data.</code><code class="descname">C1218Packet</code><span class="sig-paren">(</span><em>data=None</em>, <em>control=None</em>, <em>length=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218Packet" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.data.C1218Packet.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>data=None</em>, <em>control=None</em>, <em>length=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218Packet.__init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218Packet.control">
+<code class="descname">control</code><em class="property"> = '\x00'</em><a class="headerlink" href="#c1218.data.C1218Packet.control" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218Packet.data">
+<code class="descname">data</code><a class="headerlink" href="#c1218.data.C1218Packet.data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218Packet.do_build">
+<code class="descname">do_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218Packet.do_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218Packet.identity">
+<code class="descname">identity</code><em class="property"> = '\x00'</em><a class="headerlink" href="#c1218.data.C1218Packet.identity" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="c1218.data.C1218Packet.parse">
+<em class="property">static </em><code class="descname">parse</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218Packet.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218Packet.sequence">
+<code class="descname">sequence</code><em class="property"> = '\x00'</em><a class="headerlink" href="#c1218.data.C1218Packet.sequence" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218Packet.set_data">
+<code class="descname">set_data</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218Packet.set_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.data.C1218Packet.set_length">
+<code class="descname">set_length</code><span class="sig-paren">(</span><em>length</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.data.C1218Packet.set_length" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="c1218.data.C1218Packet.start">
+<code class="descname">start</code><em class="property"> = '\xee'</em><a class="headerlink" href="#c1218.data.C1218Packet.start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="errors.html" class="btn btn-neutral float-right" title="c1218.errors" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="connection.html" class="btn btn-neutral" title="c1218.connection" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2011-2015, SecureState LLC.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

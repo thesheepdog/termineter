@@ -1,0 +1,512 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>c1218.connection &mdash; Termineter 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Termineter 0.1.0 documentation" href="../index.html"/>
+        <link rel="up" title="c1218" href="index.html"/>
+        <link rel="next" title="c1218.data" href="data.html"/>
+        <link rel="prev" title="c1218.urlhandler.protocol_unix" href="urlhandler/protocol_unix.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../index.html" class="icon icon-home"> Termineter
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><code class="docutils literal"><span class="pre">c1218</span></code></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="urlhandler/index.html"><code class="docutils literal"><span class="pre">c1218.urlhandler</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="urlhandler/protocol_unix.html"><code class="docutils literal"><span class="pre">c1218.urlhandler.protocol_unix</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="urlhandler/protocol_unix.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href=""><code class="docutils literal"><span class="pre">c1218.connection</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data.html"><code class="docutils literal"><span class="pre">c1218.data</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="errors.html"><code class="docutils literal"><span class="pre">c1218.errors</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="errors.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../c1219/index.html"><code class="docutils literal"><span class="pre">c1219</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../c1219/access/index.html"><code class="docutils literal"><span class="pre">c1219.access</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/access/general.html"><code class="docutils literal"><span class="pre">c1219.access.general</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../c1219/access/general.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/access/log.html"><code class="docutils literal"><span class="pre">c1219.access.log</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../c1219/access/log.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/access/security.html"><code class="docutils literal"><span class="pre">c1219.access.security</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../c1219/access/security.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/access/telephone.html"><code class="docutils literal"><span class="pre">c1219.access.telephone</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../c1219/access/telephone.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1219/access/general.html"><code class="docutils literal"><span class="pre">c1219.access.general</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/access/general.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1219/access/log.html"><code class="docutils literal"><span class="pre">c1219.access.log</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/access/log.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1219/access/telephone.html"><code class="docutils literal"><span class="pre">c1219.access.telephone</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/access/telephone.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1219/data.html"><code class="docutils literal"><span class="pre">c1219.data</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/data.html#classes">Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../c1219/errors.html"><code class="docutils literal"><span class="pre">c1219.errors</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../c1219/errors.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Termineter</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html"><code class="docutils literal"><span class="pre">c1218</span></code></a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">c1218.connection</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/c1218/connection.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="module-c1218.connection">
+<span id="c1218-connection"></span><h1><a class="reference internal" href="#module-c1218.connection" title="c1218.connection"><code class="xref py py-mod docutils literal"><span class="pre">c1218.connection</span></code></a><a class="headerlink" href="#module-c1218.connection" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="c1218.connection.ConnectionRaw">
+<em class="property">class </em><code class="descclassname">c1218.connection.</code><code class="descname">ConnectionRaw</code><span class="sig-paren">(</span><em>device</em>, <em>c1218_settings={}</em>, <em>serial_settings=None</em>, <em>toggle_control=True</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.ConnectionRaw" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.connection.ConnectionRaw.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>device</em>, <em>c1218_settings={}</em>, <em>serial_settings=None</em>, <em>toggle_control=True</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.ConnectionRaw.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is a C12.18 driver for serial connections.  It relies on PySerial
+to communicate with an ANSI Type-2 Optical probe to communicate
+with a device (presumably a smart meter).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>device</strong> (<em>str</em>) &#8211; A connection string to be passed to the PySerial</td>
+</tr>
+</tbody>
+</table>
+<p>library.  If PySerial is new enough, the serial_for_url function
+will be used to allow the user to use a rfc2217 bridge.
+:param dict c1218_settings: A settings dictionary to configure the C1218
+parameters of &#8216;nbrpkts&#8217; and &#8216;pktsize&#8217;  If not provided the default
+settings of 2 (nbrpkts) and 512 (pktsize) will be used.
+:param dict serial_settings: A PySerial settings dictionary to be applied to
+the serial connection instance.
+:param bool toggle_control: Enables or diables automatically settings
+the toggle bit in C12.18 frames.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.ConnectionRaw.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.ConnectionRaw.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a terminate request and then disconnect from the serial device.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.ConnectionRaw.read">
+<code class="descname">read</code><span class="sig-paren">(</span><em>size</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.ConnectionRaw.read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read raw data from the serial connection. This function is not
+meant to be called directly.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>size</strong> (<em>int</em>) &#8211; The number of bytes to read from the serial connection.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.ConnectionRaw.recv">
+<code class="descname">recv</code><span class="sig-paren">(</span><em>full_frame=False</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.ConnectionRaw.recv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receive a C1218Packet, the payload data is returned.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>full_frame</strong> (<em>bool</em>) &#8211; If set to True, the entire C1218 frame is returned</td>
+</tr>
+</tbody>
+</table>
+<p>instead of just the payload.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.ConnectionRaw.send">
+<code class="descname">send</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.ConnectionRaw.send" title="Permalink to this definition">¶</a></dt>
+<dd><p>This sends a raw C12.18 frame and waits checks for an ACK response.
+In the event that a NACK is received, this function will attempt
+to resend the frame up to 3 times.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> (str, <a class="reference internal" href="data.html#c1218.data.C1218Packet" title="c1218.data.C1218Packet"><code class="xref py py-class docutils literal"><span class="pre">C1218Packet</span></code></a>) &#8211; the data to be transmitted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.ConnectionRaw.write">
+<code class="descname">write</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.ConnectionRaw.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write raw data to the serial connection. The CRC must already be
+included at the end. This function is not meant to be called
+directly.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> (<em>str</em>) &#8211; The raw data to write to the serial connection.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="c1218.connection.Connection">
+<em class="property">class </em><code class="descclassname">c1218.connection.</code><code class="descname">Connection</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="c1218.connection.Connection.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is a C12.18 driver for serial connections.  It relies on PySerial
+to communicate with an ANSI Type-2 Optical probe to communciate
+with a device (presumably a smart meter).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>device</strong> (<em>str</em>) &#8211; A connection string to be passed to the PySerial</td>
+</tr>
+</tbody>
+</table>
+<p>library.  If PySerial is new enough, the serial_for_url function
+will be used to allow the user to use a rfc2217 bridge.
+:param dict c1218_settings: A settings dictionary to configure the C1218
+parameters of &#8216;nbrpkts&#8217; and &#8216;pktsize&#8217;  If not provided the default
+settings of 2 (nbrpkts) and 512 (pktsize) will be used.
+:param dict serial_settings: A PySerial settings dictionary to be applied to
+the serial connection instance.
+:param bool toggle_control: Enables or diables automatically settings
+the toggle bit in C12.18 frames.
+:param bool enable_cache: Cache specific, read only tables in memory,
+the first time the table is read it will be stored for retreival
+on subsequent requests.  This is enabled only for specific tables
+(currently only 0 and 1).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.flush_table_cache">
+<code class="descname">flush_table_cache</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.flush_table_cache" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.get_table_data">
+<code class="descname">get_table_data</code><span class="sig-paren">(</span><em>tableid</em>, <em>octetcount=None</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.get_table_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read data from a table. If successful, all of the data from the
+requested table will be returned.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>tableid</strong> (<em>int</em>) &#8211; The table number to read from (0x0000 &lt;= tableid &lt;= 0xffff)</li>
+<li><strong>octetcount</strong> (<em>int</em>) &#8211; Limit the amount of data read, only works if</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>the meter supports this type of reading.
+:param int offset: The offset at which to start to read the data from.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.login">
+<code class="descname">login</code><span class="sig-paren">(</span><em>username='0000'</em>, <em>userid=0</em>, <em>password=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>Log into the connected device.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>username</strong> (<em>str</em>) &#8211; the username to log in with (len(username) &lt;= 10)</li>
+<li><strong>userid</strong> (<em>int</em>) &#8211; the userid to log in with (0x0000 &lt;= userid &lt;= 0xffff)</li>
+<li><strong>password</strong> (<em>str</em>) &#8211; password to log in with (len(password) &lt;= 20)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">bool</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.logoff">
+<code class="descname">logoff</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.logoff" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a logoff request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.run_procedure">
+<code class="descname">run_procedure</code><span class="sig-paren">(</span><em>process_number</em>, <em>std_vs_mfg</em>, <em>params=''</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.run_procedure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initiate a C1219 procedure, the request is written to table 7 and
+the response is read from table 8.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>process_number</strong> (<em>int</em>) &#8211; The numeric procedure identifier (0 &lt;= process_number &lt;= 2047).</li>
+<li><strong>std_vs_mfg</strong> (<em>bool</em>) &#8211; Whether the procedure is manufacturer specified</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>or not. True is manufacturer specified.
+:param str params: The parameters to pass to the procedure initiation
+request.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.set_table_cache_policy">
+<code class="descname">set_table_cache_policy</code><span class="sig-paren">(</span><em>cache_policy</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.set_table_cache_policy" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.set_table_data">
+<code class="descname">set_table_data</code><span class="sig-paren">(</span><em>tableid</em>, <em>data</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.set_table_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write data to a table.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>tableid</strong> (<em>int</em>) &#8211; The table number to write to (0x0000 &lt;= tableid &lt;= 0xffff)</li>
+<li><strong>data</strong> (<em>str</em>) &#8211; The data to write into the table.</li>
+<li><strong>offset</strong> (<em>int</em>) &#8211; The offset at which to start to write the data (0x000000 &lt;= octetcount &lt;= 0xffffff).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an identity request and then a negotiation request.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="c1218.connection.Connection.stop">
+<code class="descname">stop</code><span class="sig-paren">(</span><em>force=False</em><span class="sig-paren">)</span><a class="headerlink" href="#c1218.connection.Connection.stop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a terminate request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>force</strong> (<em>bool</em>) &#8211; ignore the remote devices response</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="data.html" class="btn btn-neutral float-right" title="c1218.data" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="urlhandler/protocol_unix.html" class="btn btn-neutral" title="c1218.urlhandler.protocol_unix" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2011-2015, SecureState LLC.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
